@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mermory.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="./memory.js" defer></script>
+    <title>Memory</title>
+  </head>
+  <body>
+    <video id="background-video" autoplay loop muted>
+
+      <source src="./video/28-sentiabria-2022-g.mp4" type="video/mp4">
+      
+    </video>
+    <aside>
+      <button onclick="startGame()">Nouvelle Partie</button>
+      <button onclick="reveal()">Dévoiler toute la Carte</button>
+      <div>
+        <h2>Nombre de coups Joués : </h2>
+        <h2 class="count">0</h2>
+      </div>
+    </aside>
+    <main>
+    </main>
+  </body>
+</html>
